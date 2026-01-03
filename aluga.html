@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Multiuso | Locação Mensal</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #020617, #0f172a);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: #cbd5f5;
+        }
+
+        .btn {
+            background: #22c55e;
+            color: #020617;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: #16a34a;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #020617;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #1e293b;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #22c55e;
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            color: #cbd5f5;
+        }
+
+        .cta {
+            background: #020617;
+            text-align: center;
+            border-top: 1px solid #1e293b;
+        }
+
+        footer {
+            background: #020617;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Espaço Multiuso para Locação Mensal</h1>
+            <p>
+                Ambiente amplo de 12x12 metros, ideal para igrejas, eventos, depósitos,
+                restaurantes, treinamentos e projetos comerciais.
+            </p>
+            <a class="btn" href="https://wa.me/5599999999999" target="_blank">
+                Falar no WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <section>
+        <h2 class="section-title">Por que alugar este espaço?</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>📐 Espaço Amplo</h3>
+                <p>12x12 metros bem distribuídos, adaptável para diversas atividades.</p>
+            </div>
+
+            <div class="card">
+                <h3>📅 Locação Mensal</h3>
+                <p>Estabilidade, contrato claro e custo-benefício para quem precisa de constância.</p>
+            </div>
+
+            <div class="card">
+                <h3>🔊 Uso Flexível</h3>
+                <p>Ideal para cultos, eventos, armazenamento, aulas, ensaios e operações comerciais.</p>
+            </div>
+
+            <div class="card">
+                <h3>📍 Local Estratégico</h3>
+                <p>Fácil acesso, ideal para receber público ou operar logística.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Quem pode usar?</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>⛪ Igrejas</h3>
+                <p>Cultos, ensaios, reuniões e eventos especiais.</p>
+            </div>
+
+            <div class="card">
+                <h3>🍽️ Restaurantes</h3>
+                <p>Dark kitchen, depósito ou apoio operacional.</p>
+            </div>
+
+            <div class="card">
+                <h3>🎉 Eventos</h3>
+                <p>Festas, treinamentos, encontros e produções.</p>
+            </div>
+
+            <div class="card">
+                <h3>📦 Depósitos</h3>
+                <p>Armazenamento seguro para equipamentos e materiais.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2 class="section-title">Agende uma visita</h2>
+        <p style="margin-bottom: 30px;">
+            Entre em contato agora e conheça o espaço pessoalmente.
+        </p>
+        <a class="btn" href="https://wa.me/5599999999999" target="_blank">
+            Quero Alugar
+        </a>
+    </section>
+
+    <footer>
+        © 2026 • Espaço Multiuso • Todos os direitos reservados
+    </footer>
+
+</body>
+
+</html>
